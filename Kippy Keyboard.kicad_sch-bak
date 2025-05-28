@@ -1,0 +1,7152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b2146630-5bcb-4c7b-b665-a53a8d80ccec")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Kee Bor:kb2040"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "kb2040"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "kb2040_0_1"
+				(rectangle
+					(start 0 -3.81)
+					(end 12.7 -36.83)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "kb2040_1_1"
+				(pin bidirectional line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -27.94 0)
+					(length 2.54)
+					(name "D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -30.48 0)
+					(length 2.54)
+					(name "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -33.02 0)
+					(length 2.54)
+					(name "D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -35.56 0)
+					(length 2.54)
+					(name "D9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "3.3v"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -17.78 180)
+					(length 2.54)
+					(name "A3/29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -20.32 180)
+					(length 2.54)
+					(name "A2/28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -22.86 180)
+					(length 2.54)
+					(name "A1/27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -25.4 180)
+					(length 2.54)
+					(name "A0/26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -27.94 180)
+					(length 2.54)
+					(name "SCK/18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -30.48 180)
+					(length 2.54)
+					(name "MISO/20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -33.02 180)
+					(length 2.54)
+					(name "MOSI/19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -35.56 180)
+					(length 2.54)
+					(name "D10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -17.78 0)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -20.32 0)
+					(length 2.54)
+					(name "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -22.86 0)
+					(length 2.54)
+					(name "D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -25.4 0)
+					(length 2.54)
+					(name "D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Keyboard parts:MX-NoLED"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at -0.635 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MX-NoLED"
+				(at -0.635 1.27 0)
+				(effects
+					(font
+						(size 0.508 0.508)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -15.875 -0.635 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -15.875 -0.635 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX-NoLED_0_0"
+				(rectangle
+					(start -2.54 2.54)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27) (xy -1.27 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "COL"
+					(at 3.175 0 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(text "ROW"
+					(at 0 -1.905 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+						(justify right)
+					)
+				)
+			)
+			(symbol "MX-NoLED_1_1"
+				(pin passive line
+					(at 3.81 1.27 180)
+					(length 2.54)
+					(name "COL"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -3.81 90)
+					(length 2.54)
+					(name "ROW"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 187.96 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0215a551-473b-4a72-bb18-b81c0a218635")
+		(property "Reference" "MX65"
+			(at 188.8552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 188.8552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 172.085 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 162.56 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "043820d2-a736-4c79-b8c2-7c4385cfba6b")
+		(property "Reference" "MX45"
+			(at 163.4552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.4552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 146.685 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 35.56 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05442e31-2184-4dc8-8559-063d9ee96ba2")
+		(property "Reference" "MX85"
+			(at 36.4552 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 36.4552 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 19.685 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 162.56 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09e35730-8c14-41d8-8d34-d377456ea73e")
+		(property "Reference" "MX9"
+			(at 163.4552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.4552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 146.685 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 48.26 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb8d749-50aa-4e1b-8dc6-a7f89b4de731")
+		(property "Reference" "MX86"
+			(at 49.1552 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 49.1552 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 32.385 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX86")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 73.66 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ffc59c4-c57c-4b10-83c1-5d31373c5c14")
+		(property "Reference" "MX72"
+			(at 74.5552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 74.5552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 57.785 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 149.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1985cd17-16e6-44ae-ae6e-a944d4dd7049")
+		(property "Reference" "MX8"
+			(at 150.7552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 150.7552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 133.985 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 73.66 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b8797de-2b93-4acb-bb2c-906514fa11a4")
+		(property "Reference" "MX38"
+			(at 74.5552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 74.5552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 57.785 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 60.96 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d8095df-2829-4f3b-a3ad-09aecdeaa490")
+		(property "Reference" "MX19"
+			(at 61.8552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 61.8552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 45.085 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 175.26 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e51384d-c2e7-446c-8c4b-7fe6ed14e615")
+		(property "Reference" "MX46"
+			(at 176.1552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 176.1552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 159.385 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 232.41 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21251af7-4856-44a6-836a-430fd14ae7e3")
+		(property "Reference" "MX50"
+			(at 233.3052 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 233.3052 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 216.535 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 86.36 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "237af318-9ffb-4c86-b40f-c245156d4530")
+		(property "Reference" "MX39"
+			(at 87.2552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 87.2552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 70.485 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 124.46 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f47c9e-d239-4ad8-bc8e-f4c2aa88af45")
+		(property "Reference" "MX24"
+			(at 125.3552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 125.3552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 108.585 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 175.26 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "257c7f57-2491-484e-8f61-05c6a5e175c4")
+		(property "Reference" "MX64"
+			(at 176.1552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 176.1552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 159.385 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 124.46 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25f5557a-2bb2-400b-9a13-38af2f7dc23c")
+		(property "Reference" "MX6"
+			(at 125.3552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 125.3552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 108.585 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fea7a3-ed23-4052-87cd-cd957bb6568b")
+		)
+		(pin "2"
+			(uuid "a1b9b49b-24c3-4e6d-a2e8-cbe39d6fe050")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 149.86 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "278a31d0-df5c-4b98-ac75-2b3862f10a53")
+		(property "Reference" "MX44"
+			(at 150.7552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 150.7552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 133.985 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 99.06 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2841860b-c1dd-4e53-985f-bf00a17445b8")
+		(property "Reference" "MX74"
+			(at 99.9552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 99.9552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 83.185 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 187.96 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c95bb69-3b6b-4116-93c8-ecd333374c7c")
+		(property "Reference" "MX11"
+			(at 188.8552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 188.8552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 172.085 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 232.41 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "327924ff-a3af-439d-b156-bd92a95a809a")
+		(property "Reference" "MX14"
+			(at 233.3052 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 233.3052 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 216.535 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 200.66 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33fcc7db-0b27-481e-beac-768e1630f2ce")
+		(property "Reference" "MX12"
+			(at 201.5552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 201.5552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 184.785 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.785 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 219.71 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3409a56c-fcd4-49e0-9d0c-ea47e1a3ce50")
+		(property "Reference" "MX81"
+			(at 220.6052 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 220.6052 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 203.835 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 73.66 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "348bff11-93a8-40ee-b18b-55aebbf3b7b3")
+		(property "Reference" "MX56"
+			(at 74.5552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 74.5552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 57.785 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 60.96 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "374ea9e8-a31e-4d4b-8e21-d36925cd415a")
+		(property "Reference" "MX87"
+			(at 61.8552 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 61.8552 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 45.085 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX87")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 48.26 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3acba922-9b59-4074-891b-b60637f16f39")
+		(property "Reference" "MX36"
+			(at 49.1552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 49.1552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 32.385 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 259.08 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dba883e-7590-46dd-a798-63f3b5ecfb94")
+		(property "Reference" "MX52"
+			(at 259.9752 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 259.9752 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 243.205 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.205 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 245.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405cb1d3-ba0f-47ce-80db-a32413235693")
+		(property "Reference" "MX51"
+			(at 246.0052 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 246.0052 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 229.235 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.235 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 175.26 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4093ecf1-0a75-4064-af70-d6a9c6e60d0e")
+		(property "Reference" "MX10"
+			(at 176.1552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 176.1552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 159.385 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 245.11 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "462e3a62-a29a-4e51-a873-46e7e51d1b96")
+		(property "Reference" "MX68"
+			(at 246.0052 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 246.0052 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 229.235 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.235 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 200.66 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4755bee3-8907-4419-a95b-ea535221b226")
+		(property "Reference" "MX48"
+			(at 201.5552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 201.5552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 184.785 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.785 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 137.16 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47858987-b59b-4da1-a148-631cd650c349")
+		(property "Reference" "MX25"
+			(at 138.0552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 138.0552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 121.285 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 86.36 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a0c1850-7873-4ed2-921c-c63430496eec")
+		(property "Reference" "MX73"
+			(at 87.2552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 87.2552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 70.485 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 60.96 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d381844-cae8-4927-b639-17dc63664d11")
+		(property "Reference" "MX55"
+			(at 61.8552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 61.8552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 45.085 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 257.81 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "555e2012-1f95-4bdd-aa3a-3a09ffd52ec4")
+		(property "Reference" "MX84"
+			(at 258.7052 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 258.7052 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 241.935 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 162.56 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a7d5436-94a3-4739-bd65-fde8059b949f")
+		(property "Reference" "MX79"
+			(at 163.4552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.4552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 146.685 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 35.56 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f15486c-27f8-4a9d-a043-d3496f0b8a12")
+		(property "Reference" "MX1"
+			(at 36.4552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 36.4552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 19.685 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fea7a3-ed23-4052-87cd-cd957bb6568b")
+		)
+		(pin "2"
+			(uuid "a1b9b49b-24c3-4e6d-a2e8-cbe39d6fe050")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 60.96 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6080f54f-b48e-4e6c-b2f7-b22102cb791c")
+		(property "Reference" "MX37"
+			(at 61.8552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 61.8552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 45.085 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 259.08 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61220684-bf73-4048-a1b6-c72315a9a865")
+		(property "Reference" "MX34"
+			(at 259.9752 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 259.9752 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 243.205 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.205 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 232.41 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b183c3d-5b4c-49db-9a3f-fc5863a5b514")
+		(property "Reference" "MX92"
+			(at 233.3052 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 233.3052 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 216.535 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 99.06 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6df7834e-6d97-47dd-a1fe-091315dfff8f")
+		(property "Reference" "MX22"
+			(at 99.9552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 99.9552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 83.185 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 245.11 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7383c70e-eb4f-43a5-840a-a215bb0a3881")
+		(property "Reference" "MX15"
+			(at 246.0052 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 246.0052 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 229.235 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.235 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 201.93 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75205e51-4c59-4878-94b9-2af88868dbf6")
+		(property "Reference" "MX91"
+			(at 202.8252 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 202.8252 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 186.055 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.055 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 35.56 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a15dea6-3a91-48fd-aeb8-e80ec92d2ce6")
+		(property "Reference" "MX17"
+			(at 36.4552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 36.4552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 19.685 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 232.41 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d2d77ac-04d1-4eeb-a274-15ab8b82f0d3")
+		(property "Reference" "MX67"
+			(at 233.3052 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 233.3052 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 216.535 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 111.76 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fd3cbc6-621b-46c1-9083-cda1ae1d58c5")
+		(property "Reference" "MX75"
+			(at 112.6552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 112.6552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 95.885 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 99.06 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e57fa5-8130-46b0-80d1-10374ce57922")
+		(property "Reference" "MX5"
+			(at 99.9552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 99.9552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 83.185 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fea7a3-ed23-4052-87cd-cd957bb6568b")
+		)
+		(pin "2"
+			(uuid "a1b9b49b-24c3-4e6d-a2e8-cbe39d6fe050")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 233.68 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85182134-b94c-42cf-b7e0-74d2420da689")
+		(property "Reference" "MX32"
+			(at 234.5752 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 234.5752 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 217.805 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.805 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 187.96 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8613f2d1-305b-41a4-aee6-6dc5e0b2aa93")
+		(property "Reference" "MX90"
+			(at 188.8552 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 188.8552 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 172.085 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 73.66 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "881c2ef2-6d76-4664-8897-38344f7288dc")
+		(property "Reference" "MX3"
+			(at 74.5552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 74.5552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 57.785 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fea7a3-ed23-4052-87cd-cd957bb6568b")
+		)
+		(pin "2"
+			(uuid "a1b9b49b-24c3-4e6d-a2e8-cbe39d6fe050")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 149.86 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8938a83d-fcef-4b7b-b8d0-6ce9828a5509")
+		(property "Reference" "MX26"
+			(at 150.7552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 150.7552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 133.985 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 219.71 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a649c86-ba42-4e8c-bc02-d768e3ce602e")
+		(property "Reference" "MX66"
+			(at 220.6052 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 220.6052 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 203.835 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 137.16 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f9dfca6-975e-4d16-a4cc-bb0ec2572de3")
+		(property "Reference" "MX77"
+			(at 138.0552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 138.0552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 121.285 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 149.86 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91755658-4a7a-4c45-af4b-5918baa051c2")
+		(property "Reference" "MX62"
+			(at 150.7552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 150.7552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 133.985 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 162.56 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "936f692c-4a16-449a-b42e-93db98e836dd")
+		(property "Reference" "MX27"
+			(at 163.4552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.4552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 146.685 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 111.76 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94a40b4f-31d7-47a6-b98e-f44771a8258f")
+		(property "Reference" "MX41"
+			(at 112.6552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 112.6552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 95.885 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 162.56 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c5d5c7-05ef-457c-8228-ba57ab50f54b")
+		(property "Reference" "MX63"
+			(at 163.4552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 163.4552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 146.685 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.685 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 86.36 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "976c52c0-a390-4d3a-9358-4f18cbe3b638")
+		(property "Reference" "MX21"
+			(at 87.2552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 87.2552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 70.485 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 219.71 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997a26a0-0e00-44a7-bec3-88ce2a572f4f")
+		(property "Reference" "MX49"
+			(at 220.6052 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 220.6052 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 203.835 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 187.96 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c6a968c-dc53-4a6c-a059-0f38a47dcfb7")
+		(property "Reference" "MX47"
+			(at 188.8552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 188.8552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 172.085 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 175.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c90c70c-fee2-4c95-a608-3f039a8f9c63")
+		(property "Reference" "MX28"
+			(at 176.1552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 176.1552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 159.385 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 219.71 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e1b1ab4-f0ea-4257-82f5-b3cd61edc860")
+		(property "Reference" "MX13"
+			(at 220.6052 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 220.6052 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 203.835 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.835 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 124.46 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e5a0d28-20b1-45a2-a10d-7710e47c99bd")
+		(property "Reference" "MX42"
+			(at 125.3552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 125.3552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 108.585 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Kee Bor:kb2040")
+		(at 26.67 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9349af-9de2-4410-ac01-273cd687c4e8")
+		(property "Reference" "U1"
+			(at 33.02 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "kb2040"
+			(at 33.02 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "1d78b98d-1d81-4df5-b1fd-ec60c9d78c3b")
+		)
+		(pin "12"
+			(uuid "870f2d96-ddb0-43bc-8a37-9ddce140ff06")
+		)
+		(pin "13"
+			(uuid "cad2cd11-0245-4e80-be35-7d9fa3b9153b")
+		)
+		(pin "7"
+			(uuid "b16f0e4c-bc43-43c6-84c9-4c521d3ccc69")
+		)
+		(pin "6"
+			(uuid "e3e4378e-ad60-421a-9d5b-d63668066222")
+		)
+		(pin "10"
+			(uuid "b4bb1f53-008e-4e73-a924-072de1967b36")
+		)
+		(pin "11"
+			(uuid "901792a3-d05e-4c2a-8ed8-c5cff213e163")
+		)
+		(pin "25"
+			(uuid "eb68d0ac-d04b-4cbf-ae45-c07da75e5847")
+		)
+		(pin "24"
+			(uuid "89dd9b97-abd5-4959-a0fd-61bc34b4af3b")
+		)
+		(pin "16"
+			(uuid "0ca40d00-655e-414b-a903-33fb4581a9d7")
+		)
+		(pin "15"
+			(uuid "e65bfba7-8560-41e0-b7d5-3ad9bbc53443")
+		)
+		(pin "5"
+			(uuid "a638a0f6-55f4-463e-ab8e-c9411f2dbc1a")
+		)
+		(pin "4"
+			(uuid "169088de-8c5e-4fc9-aac0-bb612bdfad86")
+		)
+		(pin "17"
+			(uuid "8a00e4de-cc86-4e93-8116-d2b791bbfb71")
+		)
+		(pin "9"
+			(uuid "eb16c957-4663-422a-b22d-c68029ef9d1d")
+		)
+		(pin "23"
+			(uuid "45495036-ce8b-4d40-889c-76555bd7e7b4")
+		)
+		(pin "18"
+			(uuid "3e45249c-b94a-45c1-9f64-428d4caa55bf")
+		)
+		(pin "20"
+			(uuid "b5c46a6e-3942-444d-ac76-90146874e463")
+		)
+		(pin "21"
+			(uuid "11b5e1b4-eee8-4029-b3b6-c359930550eb")
+		)
+		(pin "22"
+			(uuid "bc3beed5-aae2-4e1d-81cd-221757d2c30b")
+		)
+		(pin "8"
+			(uuid "8bcc5dd4-df08-4241-a95d-bdbd5c5da6b5")
+		)
+		(pin "14"
+			(uuid "d7e61829-e6ff-4964-aae9-66897308b8c4")
+		)
+		(pin "2"
+			(uuid "ee18a9a9-d4d9-4367-9678-9c5d0164d715")
+		)
+		(pin "19"
+			(uuid "2c5366cc-dc52-4bbc-a745-5127c7d3dbf8")
+		)
+		(pin "3"
+			(uuid "18865c9d-73ee-453f-b305-fd6bafaa22c0")
+		)
+		(pin "1"
+			(uuid "43c71531-8fc4-4160-b8be-faafd240738b")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 149.86 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4b6293b-eef0-47d9-a08f-b607b52d5865")
+		(property "Reference" "MX78"
+			(at 150.7552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 150.7552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 133.985 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.985 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 232.41 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a624457d-2d77-40ca-81cc-6ff446eb1f3b")
+		(property "Reference" "MX82"
+			(at 233.3052 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 233.3052 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 216.535 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 99.06 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad54d03f-f755-4e08-ba39-92e443f54a76")
+		(property "Reference" "MX40"
+			(at 99.9552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 99.9552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 83.185 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 111.76 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee84997-6b28-4ca2-b8e0-d1b9a4ded249")
+		(property "Reference" "MX23"
+			(at 112.6552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 112.6552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 95.885 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 35.56 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aff9510c-df54-4f82-b14e-fd1494f887ac")
+		(property "Reference" "MX69"
+			(at 36.4552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 36.4552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 19.685 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 48.26 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1ad5551-b9b6-4234-b4b8-349c6ddfa1ee")
+		(property "Reference" "MX70"
+			(at 49.1552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 49.1552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 32.385 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 99.06 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3184e30-4150-432a-912a-1a12e7c128e6")
+		(property "Reference" "MX58"
+			(at 99.9552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 99.9552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 83.185 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.185 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 35.56 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3408a92-48ef-4978-b19b-86ed3dcac6b4")
+		(property "Reference" "MX53"
+			(at 36.4552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 36.4552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 19.685 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 60.96 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71e0683-9546-4b7d-a310-9e706c8912d2")
+		(property "Reference" "MX2"
+			(at 61.8552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 61.8552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 45.085 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fea7a3-ed23-4052-87cd-cd957bb6568b")
+		)
+		(pin "2"
+			(uuid "a1b9b49b-24c3-4e6d-a2e8-cbe39d6fe050")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 189.23 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bca9bd11-bbb0-42eb-ad9f-651f6976202b")
+		(property "Reference" "MX29"
+			(at 190.1252 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 190.1252 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 173.355 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.355 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 86.36 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcc82bf9-cf6f-45ea-82d1-583f9fa25af1")
+		(property "Reference" "MX4"
+			(at 87.2552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 87.2552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 70.485 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87fea7a3-ed23-4052-87cd-cd957bb6568b")
+		)
+		(pin "2"
+			(uuid "a1b9b49b-24c3-4e6d-a2e8-cbe39d6fe050")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 48.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda96c64-9a85-40b8-9bbb-87585a6725cf")
+		(property "Reference" "MX18"
+			(at 49.1552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 49.1552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 32.385 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 201.93 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bef1bd64-3739-4ff6-a3e5-02486e6c3453")
+		(property "Reference" "MX30"
+			(at 202.8252 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 202.8252 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 186.055 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.055 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 124.46 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03238c4-3423-4b3e-9d5e-66bd9c84724c")
+		(property "Reference" "MX76"
+			(at 125.3552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 125.3552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 108.585 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 187.96 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3be7f79-c455-4abe-927a-4e07aa42a6ff")
+		(property "Reference" "MX80"
+			(at 188.8552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 188.8552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 172.085 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50313de-75b0-4c1a-a537-bb0c5eadb0f8")
+		(property "Reference" "MX61"
+			(at 138.0552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 138.0552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 121.285 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 111.76 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5f20f9b-ae44-4f36-81f4-c904d74b9d0a")
+		(property "Reference" "MX59"
+			(at 112.6552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 112.6552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 95.885 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 124.46 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d17bcb08-6d59-4564-a641-3c3a73bb6d0c")
+		(property "Reference" "MX60"
+			(at 125.3552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 125.3552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 108.585 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 108.585 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 48.26 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5bfdc0c-8776-4224-83a9-21ffa6f77b60")
+		(property "Reference" "MX54"
+			(at 49.1552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 49.1552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 32.385 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.385 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 245.11 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7f4df96-eb04-4680-899b-502dac8a1489")
+		(property "Reference" "MX93"
+			(at 246.0052 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 246.0052 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 229.235 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.235 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX93")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 111.76 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d816f0d4-a2fb-4400-88a2-a038110ece86")
+		(property "Reference" "MX88"
+			(at 112.6552 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 112.6552 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 95.885 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 246.38 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb47e54-53dc-4f1f-aebd-6da7e3e02c8b")
+		(property "Reference" "MX33"
+			(at 247.2752 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 247.2752 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 230.505 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.505 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 86.36 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbd7d4eb-a2f9-485e-83c1-cc4a32c0428a")
+		(property "Reference" "MX57"
+			(at 87.2552 96.52 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 87.2552 99.06 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 70.485 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 70.485 103.505 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 175.26 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddb314d7-0b81-4daf-8288-333f1fc270cc")
+		(property "Reference" "MX89"
+			(at 176.1552 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 176.1552 139.7 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 159.385 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 144.145 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808a2c46-bb35-4ab6-839b-bbc06993ef4c")
+		)
+		(pin "1"
+			(uuid "ecdb919d-a67a-4570-ae76-06f02a84ba82")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 257.81 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfe26220-86fc-4bce-896f-1a5912ebaba6")
+		(property "Reference" "MX16"
+			(at 258.7052 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 258.7052 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 241.935 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.935 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 137.16 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e34f115f-57e7-419e-b687-0925ab1ae58c")
+		(property "Reference" "MX7"
+			(at 138.0552 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 138.0552 34.29 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 121.285 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 38.735 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d3637a2-7d58-4205-81c0-98b82183a8f0")
+		)
+		(pin "2"
+			(uuid "7d2da053-39f2-4198-9b6b-f75ec49939f8")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 245.11 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40a9f2b-8e98-4d6f-9066-f763db3f4bcc")
+		(property "Reference" "MX83"
+			(at 246.0052 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 246.0052 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 229.235 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.235 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 137.16 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f620a6cd-76b9-4f2e-8ab2-ecffc363be98")
+		(property "Reference" "MX43"
+			(at 138.0552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 138.0552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 121.285 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 60.96 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f761dcd8-9f60-49cd-9319-5e5a89fec15e")
+		(property "Reference" "MX71"
+			(at 61.8552 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 61.8552 119.38 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 45.085 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.085 123.825 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 73.66 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb37ba6a-90c4-4e72-9c14-01064b1b5235")
+		(property "Reference" "MX20"
+			(at 74.5552 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 74.5552 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 57.785 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.785 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 35.56 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbe314c3-6b9a-4ab0-aa6e-b609f297bd22")
+		(property "Reference" "MX35"
+			(at 36.4552 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 36.4552 76.2 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 19.685 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.685 80.645 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Keyboard parts:MX-NoLED")
+		(at 220.98 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fddcb866-1d92-461a-aeab-7c0043c7ba6c")
+		(property "Reference" "MX31"
+			(at 221.8752 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MX-NoLED"
+			(at 221.8752 54.61 0)
+			(effects
+				(font
+					(size 0.508 0.508)
+				)
+			)
+		)
+		(property "Footprint" "Keyboard Stuff:Cherry-MX-Low-Profile"
+			(at 205.105 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.105 59.055 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b412a4a-9196-4efe-9d52-c19d8bb2bbc6")
+		)
+		(pin "1"
+			(uuid "e9ceceec-1bb1-4455-a7aa-299d5850794f")
+		)
+		(instances
+			(project ""
+				(path "/b2146630-5bcb-4c7b-b665-a53a8d80ccec"
+					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
